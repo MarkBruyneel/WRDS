@@ -79,7 +79,7 @@ def main():
     ###################
     # Connect to WRDS #
     ###################
-    conn = wrds.Connection(wrds_username='bruyneel')
+    conn = wrds.Connection(wrds_username=' . . . ')
 
     # Extract SP500 starting at date D1
     sp500 = conn.raw_sql("""
