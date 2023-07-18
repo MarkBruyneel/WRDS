@@ -22,7 +22,7 @@ def main():
     # Important: starting in 2023 you first need to log into the WRDS platform using internet software
     # before running a script. This change has to do with implementation of Duo Security authentication.
     # Make sure to use your own username to connect to WRDS.
-    conn = wrds.Connection(wrds_username='bruyneel')
+    conn = wrds.Connection(wrds_username=' . . . ')
 
     # Now import a prepared list of ISIN codes
     with open('U:\Werk\Data Management\Python\\Files\wrds\ISIN_testlist.txt', "r") as isinlist_i:
